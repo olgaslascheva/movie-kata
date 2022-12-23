@@ -1,0 +1,39 @@
+.movie-list__item {
+    display: flex;
+    position: relative;
+}
+
+.movie-list__image {
+    height: 281px;
+}
+
+.movie-list__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie-list__rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+
+}
+
+.movie-list__description {
+    box-sizing: border-box;
+    padding: 10px 10px 10px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.movie-list .movie-list__date {
+    margin-bottom: 7px;
+}
+
+.movie-list__tag {
+    margin-bottom: 7px;
+}
